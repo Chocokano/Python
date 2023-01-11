@@ -10,5 +10,6 @@ def multi(x, y):
 def div(x, y):
     return x / y
 
+
 if __name__ == '__main__':
     print('calc 모듈 실행...')

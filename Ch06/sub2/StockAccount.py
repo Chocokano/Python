@@ -2,6 +2,7 @@ from sub1.Account import Account
 
 class StockAccount(Account):
     
+    
     def __init__(self, bank, id, name, balance, stock, amount, price):
         super().__init__(bank, id, name, balance)
         self.stock = stock

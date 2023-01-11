@@ -7,9 +7,11 @@ class Car:
         self.color = color
         self.price = price
 
+
     # 기능
     def speedUp(self):
         print('%s 속도 올리기...' % self.brand)
+
 
     def speedDown(self):
         print('%s 속도 내리기...' % self.brand)
